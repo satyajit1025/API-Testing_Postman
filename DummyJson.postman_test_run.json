@@ -1,0 +1,287 @@
+{
+	"id": "5b46d8f3-8bf5-4865-841f-e11fb2b5ee8d",
+	"name": "DummyJson",
+	"timestamp": "2025-04-20T11:53:57.675Z",
+	"collection_id": "37889092-766fe84d-9c35-4809-82bd-6680abe7ab83",
+	"folder_id": 0,
+	"environment_id": "37889092-9d386f08-c5f3-4f64-b94f-3f69f769de15",
+	"totalPass": 15,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-04-20T11:53:48.605Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "764a524f-e3c8-4b83-a628-45f35fbd4080",
+			"name": "All Products",
+			"url": "https://dummyjson.com/products",
+			"time": 6601,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6601
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "f769daa5-7eda-41c6-b722-92bbce05b320",
+			"name": "ProductID",
+			"url": "https://dummyjson.com/products/1",
+			"time": 301,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				301
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6d8a5e1c-a32e-4d19-8335-9ea54840feef",
+			"name": "QueryParameter",
+			"url": "https://dummyjson.com/products/search?q=phone",
+			"time": 249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				249
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a045804c-00f1-40f4-9d95-c860d134b54b",
+			"name": "smartPhones",
+			"url": "https://dummyjson.com/products/category/smartphones",
+			"time": 255,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				255
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "58c2d22d-4979-4058-ab96-bc75bddeecad",
+			"name": "Add Product",
+			"url": "https://dummyjson.com/products/add",
+			"time": 229,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				229
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "f1b13272-9c52-4aef-b96a-bc748a92dff7",
+			"name": "Update Price",
+			"url": "https://dummyjson.com/products/1",
+			"time": 229,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": true,
+				"Status code is 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				229
+			],
+			"allTests": [
+				{
+					"Your test name": true,
+					"Status code is 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "339fa7ba-0e14-41b0-a617-dc1bab25251d",
+			"name": "Delete",
+			"url": "https://dummyjson.com/products/1",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				261
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8125,
+	"collection": {
+		"requests": [
+			{
+				"id": "764a524f-e3c8-4b83-a628-45f35fbd4080",
+				"method": "GET"
+			},
+			{
+				"id": "f769daa5-7eda-41c6-b722-92bbce05b320",
+				"method": "GET"
+			},
+			{
+				"id": "6d8a5e1c-a32e-4d19-8335-9ea54840feef",
+				"method": "GET"
+			},
+			{
+				"id": "a045804c-00f1-40f4-9d95-c860d134b54b",
+				"method": "GET"
+			},
+			{
+				"id": "58c2d22d-4979-4058-ab96-bc75bddeecad",
+				"method": "POST"
+			},
+			{
+				"id": "f1b13272-9c52-4aef-b96a-bc748a92dff7",
+				"method": "PUT"
+			},
+			{
+				"id": "339fa7ba-0e14-41b0-a617-dc1bab25251d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
